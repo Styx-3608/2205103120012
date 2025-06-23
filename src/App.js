@@ -1,9 +1,10 @@
-import React from "react";
-import UrlShortenerForm from "./components/UrlShortenerForm";
+import React from 'react';
+import UrlShortenerForm from './components/UrlShortenerForm';
+import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <UrlShortenerForm />
     </div>
   );
